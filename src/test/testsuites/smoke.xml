@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+<!--    <parameter name="targetBrowser" value="edge"></parameter>-->
+    <listeners>
+        <listener class-name="listensers.CRMTestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/belle/IdeaProjects/crm.project">
+        <classes>
+            <class name="testcases.testListener"/>
+        </classes>
+    </test>
+</suite>

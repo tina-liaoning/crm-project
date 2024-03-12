@@ -1,0 +1,8 @@
+listensers\CRMTestListener.class
+ignoretestcases\TestCookie.class
+testcases\ContactsPageTest.class
+testcases\testListener.class
+testcases\BaseTest.class
+testcases\ProductsPageTest.class
+testcases\UserTeamPageTest.class
+testcases\DocumentsPageTest.class

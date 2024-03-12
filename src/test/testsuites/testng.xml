@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/belle/IdeaProjects/crm.project/src/test/java/testcases">
+        <classes>
+            <class name="testcases.ContactsPageTest">
+                <methods>
+                    <include name="createContact"/>
+                    <include name="searchContact"/>
+                    <include name="testEditContactPhoneNumber"/>
+                    <include name="testDeleteFirstRowFromContactTableView"/>
+                </methods>
+            </class>
+
+            <class name="testcases.DocumentsPageTest">
+                <methods>
+                    <include name="testGotoDocumentsPage"/>
+                    <include name="testUploadDocument"/>
+                    <include name="testCreatFolder"/>
+                    <include name="testRenameFolder"/>
+                    <include name="testMoveFileToFolderThroughActions"/>
+                </methods>
+            </class>
+
+            <class name="testcases.ProductsPageTest">
+                <methods>
+                    <include name="testOpenProductsPage"/>
+                    <include name="testExportProductsList"/>
+                    <include name="testCloneAction"/>
+                    <include name="testSearchAndDeleteProduct"/>
+                    <include name="testImportProductList"/>
+                </methods>
+            </class>
+
+            <class name="testcases.UserTeamPageTest">
+                <methods>
+                    <include name="testQuickInviteYourTeamWithValidEmail"/>
+                    <include name="testQuickInviteYourTeamWithDuplicatedEmail"/>
+                    <include name="testCustomInviteTeamWithValidMultiEmailFromScratch"/>
+                    <include name="testInviteTeamFromCSVFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
