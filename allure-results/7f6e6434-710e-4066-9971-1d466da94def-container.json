@@ -1,1 +1,0 @@
-{"uuid":"7f6e6434-710e-4066-9971-1d466da94def","name":"testcases.testListener","children":["c38388c1-444a-4d92-aac3-3e4a58a032f8"],"befores":[{"name":"gotoContactPage","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1709665554855,"stop":1709665564125}],"afters":[],"start":1709665550582,"stop":1709665626149}
